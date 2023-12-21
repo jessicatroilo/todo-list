@@ -1,0 +1,17 @@
+/* -------- CORPS --------*/
+
+#container {
+    background-color : pink;
+}
+
+
+/* -------- SECTION LISTE DES TÂCHES --------*/
+
+.list {
+    background-color: white;
+    width : 10em;
+    height : 10em;
+}
+
+/*--Boutons*/
+

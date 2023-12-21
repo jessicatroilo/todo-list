@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>ToDo List</title>
+
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+
+                <nav>
+<!--TODO creation d'un menu déroulant accessible par un bouton à droite de l'écran--> 
+    <!--TODO dans le menu :  --> 
+        <!--TODO faire un bouton light/dark --> 
+        <!--TODO faire un bouton augmenter/diminuer de la taille du texte --> 
+                    <button><img src="/Projets/todo-list/public/img/ecrou.png" alt="Paramètres"></button>
+                </nav>
+
+            </header>
+
+            <main>
+
+<!--TODO faire un champs - création d'un form ? où on implémente notre texte --> 
+<!--TODO faire un un bouton qui servira de submit de notre champs -->     
+                <section>
+                    <form>
+                        <input placeholder="Write your task..."></input>
+                        <button>Add</button>
+                    </form>
+                </section> 
+
+<!--TODO faire une div qui entours les deux sections suivantes --> 
+<!--TODO faire un champs d'affichage des données de la section form --> 
+<!--TODO ajout des button coeur et des button à dynamiser : editer, valider (rayé) et annuler (supprimer) -->             
+                <section>
+                    <div class="list">
+                        <img class="icon_heart" src="/Projets/todo-list/public/img/coeur.png" alt="Puce en forme de coeur de la liste">
+                        <p class="list__task">Je suis à faire</p>
+                        <button class="icon_validate"><img src="/Projets/todo-list/public/img/succes.png" alt="Tâche terminée"></button>
+                        <button class="icon_modify"><img src="/Projets/todo-list/public/img/editer.png" alt="Modifier la tâche"></button>
+                        <button class="icon_cross"><img src="/Projets/todo-list/public/img/annuler.png" alt="Supprimer la tâche"></button>
+                    </div>
+                </section>
+
+<!--TODO faire un button qui supprime toutes les tâches -->        
+                <section>
+                    <button>Clear all items</button>
+                </section>
+
+            </main>
+
+            <footer>
+<!--TODO mettre l'année de création et mon nom-->
+                <p> 2023 - To Do List Jessica Troilo</p>
+                <p>lien git</p>
+            </footer>
+        </div>
+
+    </body>
+
+</html>
